@@ -37,6 +37,9 @@ namespace pryBonaderoED
                 {
                     btnEliminar.Enabled = true; // Habilitar el botón eliminar
                 }
+                rdbInOrder.Enabled = true;
+                rdbPreOrder.Enabled = true;
+                rdbPostOrder.Enabled = true;
             }
             #region Codigo antiguo (por las dudas)
             //if (txtCodigo.Text != "" && txtNombre.Text != "" && txtTramite.Text != "")
@@ -147,7 +150,11 @@ namespace pryBonaderoED
             btnAgregar.Enabled = false;
             rdbAsc.Checked = true;
             btnEliminar.Enabled = true;
-            
+            rdbInOrder.Enabled = false;
+            rdbPreOrder.Enabled = false;
+            rdbPostOrder.Enabled = false;
+
+
 
         }
 
@@ -267,6 +274,9 @@ namespace pryBonaderoED
             btnEliminar.Enabled = false;
             rdbAsc.Checked = true;
             txtCodigo.Focus();
+            rdbInOrder.Enabled = false;
+            rdbPreOrder.Enabled = false;
+            rdbPostOrder.Enabled = false;
         }
 
         private void rdbPreOrder_CheckedChanged(object sender, EventArgs e)

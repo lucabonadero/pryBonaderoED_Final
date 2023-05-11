@@ -201,6 +201,8 @@ namespace pryBonaderoED
 
         }
         #endregion
+
+
         #region cbo
         //Recorrer in order, pre order, post order en ComboBox
         #region Recorrer
@@ -246,6 +248,8 @@ namespace pryBonaderoED
 
         }
         #endregion
+
+
         #region dgv
         //Recorrer in order, pre order, post order en DataGridView
         #region Recorrer
@@ -291,6 +295,8 @@ namespace pryBonaderoED
 
         }
         #endregion
+
+
         #region sw
         #region Recorrer
         public void RecorrerInOrder(StreamWriter archivo)
@@ -335,6 +341,8 @@ namespace pryBonaderoED
 
         }
         #endregion
+
+
         #region treeview
         #region Recorrer
         public void RecorrerPreOrder(TreeView trvArbol)
@@ -354,6 +362,7 @@ namespace pryBonaderoED
         }
         #endregion
         #endregion
+
 
         #region Recorrer y order para cbo, lst, dgv y archivo(DESCENDENTE)
         #region lst
@@ -400,6 +409,8 @@ namespace pryBonaderoED
         }
 
         #endregion
+
+
         #region cbo
         //Recorrer in order, pre order, post order en ComboBox
         #region Recorrer
@@ -442,6 +453,8 @@ namespace pryBonaderoED
 
         }
         #endregion
+
+
         #region dgv
         //Recorrer in order, pre order, post order en DataGridView
         #region Recorrer
@@ -484,6 +497,8 @@ namespace pryBonaderoED
 
         }
         #endregion
+
+
         #region sw
         #region Recorrer
         public void RecorrerInOrderDes(StreamWriter archivo)
@@ -528,6 +543,8 @@ namespace pryBonaderoED
 
         }
         #endregion
+
+
         #region treeview
         #region Recorrer
         public void RecorrerPreOrderDes(TreeView Arbol)
@@ -549,6 +566,8 @@ namespace pryBonaderoED
 
 
         #endregion
+
+
 
         #region Equilibrar
         private clsNodo[] vecEquilibrar = new clsNodo[100];
@@ -586,6 +605,8 @@ namespace pryBonaderoED
             
         }
         #endregion
+
+
         
         #region Buscar Nodo
         public clsNodo BuscarNodo(Int32 Codigo)
@@ -612,6 +633,8 @@ namespace pryBonaderoED
             return null;
         }
         #endregion
+
+
         #endregion
     }
 }
