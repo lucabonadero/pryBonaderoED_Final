@@ -266,7 +266,6 @@ namespace pryBonaderoED
             btnAgregar.Enabled = false;
             btnEliminar.Enabled = false;
             rdbAsc.Checked = true;
-            rdbInOrder.Checked = true;
             txtCodigo.Focus();
         }
 
