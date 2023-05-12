@@ -32,7 +32,6 @@ namespace pryBonaderoED
                 clsArbolBinario.RecorrerInOrder(dgvArbol);
                 clsArbolBinario.RecorrerInOrder(lstCola);
                 clsArbolBinario.RecorrerInOrder(cmbCodigo);
-                clsArbolBinario.RecorrerPreOrder(treeView1);
                 if (clsArbolBinario.Raiz == null)
                 {
                     btnEliminar.Enabled = true; // Habilitar el botón eliminar
